@@ -1,0 +1,217 @@
+#container{
+  width:100%;
+  height:100vh;
+  margin:0 auto;
+}
+/*******
+	共通
+*******/
+span{
+	font-weight:bold;
+	color:red;
+  text-shadow: rgb(248, 241, 241) 1px 0 10px;
+}
+.main_ttl{
+  font-family: '游明朝';
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+  text-align: center;
+}
+.sub_ttl{
+  font-family: 'HG正楷書体-PRO',cursive;
+  color: rgb(255, 136, 0);
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+/*******
+header
+*******/
+header{
+	position: relative;
+  height:25%;
+}
+
+#head-img{
+  width:100%;
+  height: 100%;
+  background-color: #cff;
+}
+#head-img img{
+	width: 100%;
+  height: 100%;
+}
+#head-img h1{
+  margin: 0;
+  color: #fff;
+  text-shadow: #FC0 1px 0 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+/*******
+	main
+*******/
+@media screen and (max-width:480px){
+
+  .left-panel,.right-panel{
+    display: none;
+  }
+}
+main{
+  height:50%;
+}
+#three-cullums{
+  display:flex;
+  justify-content: space-between;
+  height:100%;
+}
+.left-panel{
+  width:20%;
+  background-color: #ffc;
+}
+.left-panel img{
+  height:100%;
+  width: 100%;
+}
+.left-panel img{
+  height:100%;
+  width: 100%;
+}
+.main-panels{
+	display:flex;
+  width:60%;
+  background-color:#fcf ;
+  text-align: center;
+}
+@media screen and (max-width:480px) {
+  .main-panels{
+    width: 100%;
+  }
+}
+.right-panel{
+  width:20%;
+  background-color:#caa ;
+}
+.right-panel img{
+  height:100%;
+  width: 100%;
+}
+.main-panel1{
+  background-color:#c55 ;
+  height:100%;
+  width:33.3%
+}
+.main-panel2{
+  background-color:#500 ;
+  height:100%;
+  width:33.3%
+}
+.main-panel3{
+  background-color:#b00 ;
+  height:100%;
+  width:33.3%
+}
+.main-panels img{
+  width: 100%;
+  height: 100%;
+}
+/*******
+	footer
+*******/
+footer{
+  height:25%;
+}
+#footer-disp{
+  height:100%;
+  background-color:#00bbb7 ;
+  margin: auto;
+}
+.button-area{
+  display: flex;
+  justify-content:center;
+  padding-left: 6rem;
+}
+@media screen and (max-width:480px) {
+  .button-area{
+    padding-left: 50px;
+  }
+}
+.button-area div{
+  margin-right: 15%;
+}
+.button-area div button{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 40px;
+}
+.suuziku-footer{
+  width: 100%;
+  height:80%;
+  background-color:#a7bb00;
+  display:flex;
+  justify-content: space-between;
+}
+.suuziku-footer div{
+  width: 30%;
+  height: 100%;
+  background-color:#000ebb;
+}
+.suuziku-footer div img{
+	width:100%;
+	height:100%;
+}
+.banda{
+	opacity:0;
+}
+
+/*******
+全画面表示
+*******/
+.exp{
+	width:80%;
+	height:100%;
+	margin:0 auto;
+	font-weight:bold;
+	font-size:1.2rem;
+}
+.japan_history{
+	display:none;
+}
+.japan_history_display{
+	position:absolute;
+	display:  inline;  
+	top:0;
+	width:100%;
+	background-color:rgba(192,192,192,1);
+	list-style:none;
+}
+.german_history{
+	display:none;
+}
+.german_history_display{
+	position:absolute;
+	display:  inline;  
+	top:0;
+	width:100%;
+	background-color:rgba(192,192,192,1);
+	list-style:none;
+}
+.italy_history{
+	display:none;
+}
+.italy_history_display{
+	position:absolute;
+	display:  inline;  
+	top:0;
+	margin: 0;
+	width:100%;
+	background-color:rgba(192,192,192,1);
+	list-style:none;
+}
+ul{
+	list-style:none;
+}
+li{
+	list-style:none;
+}
